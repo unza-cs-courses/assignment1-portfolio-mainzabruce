@@ -112,37 +112,40 @@ The following are checked automatically on each push:
 
 Before submitting, verify:
 
-- [ ] All 4 sections are complete (Home, About, Projects, Contact)
-- [ ] HTML validates with no errors
-- [ ] CSS uses custom properties (variables)
-- [ ] Flexbox is used for at least one component
-- [ ] CSS Grid is used for at least one component
-- [ ] Site is responsive at all breakpoints
-- [ ] All images have alt text
-- [ ] Form inputs have labels
-- [ ] Screenshots added to `/screenshots` folder
-- [ ] README updated with your information
+- [x] All 4 sections are complete (Home, About, Projects, Contact)
+- [x] HTML validates with no errors
+- [x] CSS uses custom properties (variables)
+- [x] Flexbox is used for at least one component
+- [x] CSS Grid is used for at least one component
+- [x] Site is responsive at all breakpoints
+- [x] All images have alt text
+- [x] Form inputs have labels
+- [x] Screenshots added to `/screenshots` folder
+- [x] README updated with your information
 
 ---
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** Bruce Mainza
+**Student ID:** 2022038479
+**Design Theme:** Mobile-first, highly responsive, blue-themed portfolio website.
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [x] CSS Custom Properties
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Media Queries
+- [x] Other: Transitions and hover effects
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+- **Challenge:** Keeping the layout clean on different screen sizes.
+- **Solution:** I used a mobile-first approach, relative units, and media queries at key breakpoints.
+- **Challenge:** Making components stay consistent while resizing.
+- **Solution:** I used Flexbox and CSS Grid to control spacing, alignment, and card layout.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+- All images used in this project are mine.
 
 ---
 

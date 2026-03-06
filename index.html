@@ -3,257 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <meta name="description" content="Portfolio website for Mainza Bruce">
+    <title>Mainza Bruce | Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!--
-    ============================================================
-    ASSIGNMENT 1: RESPONSIVE PORTFOLIO WEBSITE
-    CSC4035 Web Programming and Technologies
-
-    Instructions:
-    1. Complete all TODO sections below
-    2. Use semantic HTML5 elements
-    3. Ensure all images have alt attributes
-    4. Ensure all form inputs have labels
-    5. Test responsiveness at multiple breakpoints
-    ============================================================
-    -->
-
-    <!-- Navigation -->
     <header class="header">
-        <nav class="nav">
-            <!-- TODO: Create navigation with links to each section
-                 Requirements:
-                 - Logo/site title
-                 - Navigation links (Home, About, Projects, Contact)
-                 - Mobile-friendly (hamburger menu optional)
-                 - Active state indication
-            -->
-            <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
-            </div>
-            <ul class="nav__menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <a href="#home">Mainza Bruce</a>
+                </div>
+                <ul class="nav__menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section id="home" class="hero">
-            <!-- TODO: Create hero section
-                 Requirements:
-                 - Your name (h1)
-                 - Professional tagline
-                 - Call-to-action button
-                 - Consider using Flexbox for layout
-            -->
-            <div class="hero__content">
-                <h1>Your Name</h1>
-                <p class="hero__tagline">
-                    <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
-                </p>
-                <a href="#contact" class="btn btn--primary">Get In Touch</a>
+            <div class="container">
+                <div class="hero__content">
+                    <h1>Mainza Bruce</h1>
+                    <p class="hero__tagline">Software engineer building modern and useful applications</p>
+                    <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                </div>
             </div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="about">
-            <!-- TODO: Create about section
-                 Requirements:
-                 - Section heading (h2)
-                 - Profile image with alt text
-                 - Professional bio (150+ words)
-                 - Skills list
-                 - Use CSS Grid or Flexbox for layout
-            -->
             <div class="container">
                 <h2>About Me</h2>
                 <div class="about__content">
                     <div class="about__image">
-                        <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="images/profile.jpg" alt="Portrait illustration of Mainza Bruce">
                     </div>
                     <div class="about__text">
                         <p>
-                            <!-- TODO: Write your professional bio (150+ words)
-                                 Include:
-                                 - Your background
-                                 - Your interests in web development
-                                 - Your goals
-                                 - What makes you unique
-                            -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+                            I am a Computer Science student at the University of Zambia with a strong interest in software and web development.
+                            My journey started with basic HTML pages where I practiced structuring content using headings, paragraphs, and links.
+                            As I progressed, I learned CSS to control layout, spacing, colors, and responsive design so websites work well on both mobile devices and laptops.
+                            I currently build web applications using Node.js and Express, focusing on server-side logic, APIs, and dynamic functionality.
+                            Alongside web development, I am also learning Android development with Kotlin and Jetpack Compose to build modern mobile applications with clean user interfaces.
+                            I enjoy breaking complex problems into smaller parts so I can understand and implement each step clearly.
+                            This approach helps me write organized and maintainable code.
+                            My goal is to become a well-rounded full-stack developer who builds scalable web systems and useful mobile applications that solve real-world problems.
                         </p>
                         <h3>Skills</h3>
                         <ul class="skills-list">
-                            <!-- TODO: Add your skills -->
-                            <li>HTML5</li>
-                            <li>CSS3</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>Kotlin & Java</li>
                             <li>JavaScript</li>
                             <li>Responsive Design</li>
-                            <!-- Add more skills -->
+                            <li>Android Development</li>
+                            <li>Problem Solving</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="projects">
-            <!-- TODO: Create projects section
-                 Requirements:
-                 - Section heading (h2)
-                 - Minimum 3 project cards
-                 - Each card: image, title, description, link(s)
-                 - Use CSS Grid for card layout
-            -->
             <div class="container">
-                <h2>My Projects</h2>
+                <h2>Projects</h2>
                 <div class="projects__grid">
-                    <!-- Project Card 1 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
+                        <img src="images/project_1.png" alt="Preview image of UniStay student accommodation project">
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+                            <h3>UniStay Student Accommodation</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A web-based application that helps students find accommodation and pay securely online.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--small btn--outline">GitHub</a>
+                                <a href="https://github.com/mainzabruce/unistayfullstack" class="btn btn--small btn--outline">GitHub</a>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Project Card 2 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
+                        <img src="images/project_2.png" alt="Preview image of my profile website project">
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+                            <h3>Portfolio Page</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A responsive one-page portfolio website built with HTML and CSS,
+                                showcasing my projects and skills in a clean and modern design.
                             </p>
                             <div class="project-card__links">
-                                <a href="#" class="btn btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--small btn--outline">GitHub</a>
+                                <a href="https://mainzabruce.netlify.app/" class="btn btn--small">Live Demo</a>
+                                <a href="https://github.com/mainzabruce/profile-website" class="btn btn--small btn--outline">GitHub</a>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Project Card 3 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
+                        <img src="images/project_3.png" alt="Preview image of Weather247 Android app running in an emulator">
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+                            <h3>Weather App</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A simple Android weather application built with Kotlin and Jetpack Compose.
+                                It uses a network module to fetch weather data from the Tomorrow.io API.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--small btn--outline">GitHub</a>
+                                <a href="https://github.com/mainzabruce/weather247" class="btn btn--small btn--outline">GitHub</a>
                             </div>
                         </div>
                     </article>
-
-                    <!-- TODO: Add more project cards if desired -->
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="contact">
-            <!-- TODO: Create contact section
-                 Requirements:
-                 - Section heading (h2)
-                 - Contact form with:
-                   - Name field (required)
-                   - Email field (required, type="email")
-                   - Message textarea (required)
-                   - Submit button
-                 - All inputs must have associated labels
-                 - Use HTML5 validation attributes
-            -->
             <div class="container">
                 <h2>Contact Me</h2>
-                <form class="contact__form" action="#" method="POST">
+                <form class="contact__form" action="#" method="post">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            required
-                            placeholder="Your Name"
-                            minlength="2"
-                        >
+                        <input type="text" id="name" name="name" required minlength="2" placeholder="Your full name">
                     </div>
+
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                            placeholder="your.email@example.com"
-                        >
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
                     </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input
-                            type="text"
-                            id="subject"
-                            name="subject"
-                            placeholder="What is this regarding?"
-                        >
-                    </div>
+
                     <div class="form-group">
                         <label for="message">Message</label>
                         <textarea
                             id="message"
                             name="message"
+                            rows="6"
                             required
-                            rows="5"
-                            placeholder="Your message..."
                             minlength="10"
+                            placeholder="Write your message here"
                         ></textarea>
                     </div>
+
                     <button type="submit" class="btn btn--primary">Send Message</button>
                 </form>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
-        <!-- TODO: Create footer
-             Requirements:
-             - Copyright notice
-             - Social media links (optional)
-             - Back to top link (optional)
-        -->
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2026 Mainza Bruce. All rights reserved.</p>
             <nav class="footer__social">
-                <!-- TODO: Add your social media links -->
-                <a href="#" aria-label="GitHub">GitHub</a>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="https://github.com/mainzabruce" aria-label="Visit GitHub profile">GitHub</a>
+                <a href="https://www.linkedin.com/in/mainzabruce" aria-label="Visit LinkedIn profile">LinkedIn</a>
             </nav>
         </div>
     </footer>
